@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.first-division{
+    background-image:linear-gradient(rgba(0,0,0,0.76),rgba(0,0,0.6,0.76)), url(./netflixbackdrop.jpg);
+    color: white;
+    text-align: center;
+    padding: 100px;
+    height:1000px;
+    background-size: cover;
+    padding-top: 300px;
+    position: relative;
+}
+.h1-div1{
+    font-size: 75px;
+    font-weight:900;
+    color: #ffffff;
+    margin-top: 15px;
+    line-height:1.2;
+}
+.h2-div1{
+    line-height:1;
+    font-size: 30px;
+    font-weight:700;
+}
+
+.logo-class{
+  
+  position:absolute ; top: 35px; left: 190px;
+  
+  
+}
+
+.third-div{
+    background-color:black;
+    width: 100%;
+    height:950px;
+    margin:0%; 
+    position: relative;
+    
+
+}
+.h6-div3{
+    font-size: 35px;
+    font-weight:500;
+    color: #ffffff;
+    margin-top:0px;
+    line-height:1.2;
+    text-align: left;
+    margin-left:200px;
+
+}
+.mycarousel
+{
+    position: absolute;
+    top: 100px;
+    left: 550px;
+    width:900px;
+}
+.carousel slide{
+    width: 90%;
+    max-width:800px;
+}
+
+.carousel-inner img {
+    height: 700px; 
+    /* object-fit: cover;  */
+    width: 100%;
+    object-fit: contain; 
+    
+}
+.card-flex{
+    background-color: black;
+    display: flex;
+    gap:4px;
+    padding:2px;
+    justify-content:space-evenly;
+    align-items: center;
+    flex: 1;
+    flex-direction: row;
+    margin-top: 900px;
+    position: relative;
+    width: 100%;
+    margin:0;
+   
+    }
+
+.h6-card{
+    font-size:25px;
+    font-weight:600;
+    color: #ffffff;
+    padding-left:20px ;
+    line-height:1.2;
+    text-align:center;
+    margin-left:40px;
+    position :absolute;
+    top: 50px;
+
+}
+.card-value img{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    margin-left:50px;
+    margin-right:20px;
+    margin-top: 20px;
+ 
+   
+}
+.card-flex-in{
+   width: 80%;
+   background-color: aliceblue;
+   display: flex;
+}    
+.card-para{
+    font-size:20px;
+    font-weight:30px;
+    color: #ffffff;
+    line-height:1.2;
+    text-align:left;
+    margin-left:45px;
+    position :absolute;
+    top: 150px;
+    padding-left: 15PX;
+    padding-top: 15px;
+
+}
+.fourth-div{
+background-color: black;
+padding: 70px;
+padding-left:50px;
+height: 850px;
+}
+.fourth-inner{
+    background-color:black;
+    padding: 50px;
+    margin-left:200px;
+    margin-top:5px;
+    height: 700px;
+    margin-right: 200px;
+    overflow: auto;
+
+}
+
+.footer {
+    max-width: 1000px;
+    margin-left: 200px;
+    padding: 40px 20px;
+    margin-top: 0px;
+    position: relative;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 3;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 100px;
+    margin-top: 20px;
+}
+.footer-grid div {
+    display: flex;
+    flex-direction: column;
+}
+.footer-button {
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #757575;
+    padding: 5px 10px;
+    font-size: 14px;
+    background: transparent;
+    color:white;
+    cursor: pointer;
+}
+.footer-button:hover {
+    border-color: white;
+    color: white;
+}
+.footer .copyright {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left:700px;
+}
